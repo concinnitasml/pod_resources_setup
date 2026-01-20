@@ -82,13 +82,24 @@ $V_PIP install -r /workspace/ComfyUI/requirements.txt
 
 # --- Model Downloads ---
 dl_model "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-9B/resolve/main/flux-2-klein-base-9b.safetensors" "/workspace/ComfyUI/models/diffusion_models/flux-2-klein-base-9b.safetensors" "auth"
+dl_model "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-9b-fp8/resolve/main/flux-2-klein-base-9b-fp8.safetensors" "/workspace/ComfyUI/models/diffusion_models/flux-2-klein-base-9b-fp8.safetensors" "auth"
+
+dl_model "https://huggingface.co/black-forest-labs/FLUX.2-klein-9B/resolve/main/flux-2-klein-9b.safetensors" "/workspace/ComfyUI/models/diffusion_models/flux-2-klein-9b.safetensors" "auth"
+dl_model "https://huggingface.co/black-forest-labs/FLUX.2-klein-9b-fp8/resolve/main/flux-2-klein-9b-fp8.safetensors" "/workspace/ComfyUI/models/diffusion_models/flux-2-klein-9b-fp8.safetensors" "auth"
+
 dl_model "https://huggingface.co/Comfy-Org/flux2-klein-9B/resolve/main/split_files/text_encoders/qwen_3_8b.safetensors" "/workspace/ComfyUI/models/text_encoders/qwen_3_8b.safetensors"
+dl_model "https://huggingface.co/Comfy-Org/flux2-klein-9B/resolve/main/split_files/text_encoders/qwen_3_8b_fp8mixed.safetensors" "/workspace/ComfyUI/models/text_encoders/qwen_3_8b_fp8mixed.safetensors"
+
 dl_model "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-4B/resolve/main/flux-2-klein-base-4b.safetensors" "/workspace/ComfyUI/models/diffusion_models/flux-2-klein-base-4b.safetensors" "auth"
+dl_model "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-4b-fp8/resolve/main/flux-2-klein-base-4b-fp8.safetensors" "/workspace/ComfyUI/models/diffusion_models/flux-2-klein-base-4b-fp8.safetensors" "auth"
+
+dl_model "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B/resolve/main/flux-2-klein-4b.safetensors" "/workspace/ComfyUI/models/diffusion_models/flux-2-klein-4b.safetensors" "auth"
+dl_model "https://huggingface.co/black-forest-labs/FLUX.2-klein-4b-fp8/resolve/main/flux-2-klein-4b-fp8.safetensors" "/workspace/ComfyUI/models/diffusion_models/flux-2-klein-4b-fp8.safetensors" "auth"
+
 dl_model "https://huggingface.co/Comfy-Org/flux2-klein-4B/resolve/main/split_files/text_encoders/qwen_3_4b.safetensors" "/workspace/ComfyUI/models/text_encoders/qwen_3_4b.safetensors"
-dl_model "https://huggingface.co/Comfy-Org/flux2-dev/resolve/main/split_files/diffusion_models/flux2_dev_fp8mixed.safetensors" "/workspace/ComfyUI/models/diffusion_models/flux2_dev_fp8mixed.safetensors"
-dl_model "$BASE_ORG/text_encoders/mistral_3_small_flux2_fp8.safetensors" "/workspace/ComfyUI/models/text_encoders/mistral_3_small_flux2_fp8.safetensors"
-dl_model "$BASE_ORG/vae/flux2-vae.safetensors" "/workspace/ComfyUI/models/vae/flux2-vae.safetensors"
-dl_model "$BASE_ORG/loras/Flux2TurboComfyv2.safetensors" "/workspace/ComfyUI/models/loras/Flux2TurboComfyv2.safetensors"
+dl_model "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b_fp8_mixed.safetensors" "/workspace/ComfyUI/models/text_encoders/qwen_3_4b_fp8mixed.safetensors"
+
+dl_model "https://huggingface.co/Comfy-Org/flux2-dev/resolve/main/split_files/vae/flux2-vae.safetensors" "/workspace/ComfyUI/models/vae/flux2-vae.safetensors"
 
 # --- Custom Node Installs ---
 install_node "ComfyUI-Manager" "https://github.com/ltdrdata/ComfyUI-Manager.git"
