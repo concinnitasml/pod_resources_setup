@@ -1,10 +1,5 @@
 #!/bin/bash
 
-# --- Configuration ---
-# Define paths and variables here so the script is self-contained
-V_PIP="/workspace/venv/bin/pip"
-BASE_ORG="https://huggingface.co/Comfy-Org/flux2-dev/resolve/main" # Assumed URL based on context
-
 # Ensure aria2 is installed for downloads
 if ! command -v aria2c &> /dev/null; then
     apt-get update && apt-get install -y aria2
@@ -73,12 +68,6 @@ comfyui:
     input: /workspace/input
     output: /workspace/output
 YAML
-
-# --- Pip Installs (Dependencies) ---
-# We run this here so adding a node/requirement doesn't require editing the start command
-$V_PIP install --upgrade pip
-$V_PIP install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cu128
-$V_PIP install -r /workspace/ComfyUI/requirements.txt
 
 # --- Model Downloads ---
 dl_model "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-9B/resolve/main/flux-2-klein-base-9b.safetensors" "/workspace/ComfyUI/models/diffusion_models/flux-2-klein-base-9b.safetensors" "auth"
