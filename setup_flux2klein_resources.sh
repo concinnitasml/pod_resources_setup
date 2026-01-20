@@ -79,14 +79,14 @@ dl_model "https://huggingface.co/black-forest-labs/FLUX.2-klein-9b-fp8/resolve/m
 dl_model "https://huggingface.co/Comfy-Org/flux2-klein-9B/resolve/main/split_files/text_encoders/qwen_3_8b.safetensors" "/workspace/ComfyUI/models/text_encoders/qwen_3_8b.safetensors"
 dl_model "https://huggingface.co/Comfy-Org/flux2-klein-9B/resolve/main/split_files/text_encoders/qwen_3_8b_fp8mixed.safetensors" "/workspace/ComfyUI/models/text_encoders/qwen_3_8b_fp8mixed.safetensors"
 
-dl_model "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-4B/resolve/main/flux-2-klein-base-4b.safetensors" "/workspace/ComfyUI/models/diffusion_models/flux-2-klein-base-4b.safetensors" "auth"
-dl_model "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-4b-fp8/resolve/main/flux-2-klein-base-4b-fp8.safetensors" "/workspace/ComfyUI/models/diffusion_models/flux-2-klein-base-4b-fp8.safetensors" "auth"
+# dl_model "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-4B/resolve/main/flux-2-klein-base-4b.safetensors" "/workspace/ComfyUI/models/diffusion_models/flux-2-klein-base-4b.safetensors" "auth"
+# dl_model "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-4b-fp8/resolve/main/flux-2-klein-base-4b-fp8.safetensors" "/workspace/ComfyUI/models/diffusion_models/flux-2-klein-base-4b-fp8.safetensors" "auth"
 
-dl_model "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B/resolve/main/flux-2-klein-4b.safetensors" "/workspace/ComfyUI/models/diffusion_models/flux-2-klein-4b.safetensors" "auth"
-dl_model "https://huggingface.co/black-forest-labs/FLUX.2-klein-4b-fp8/resolve/main/flux-2-klein-4b-fp8.safetensors" "/workspace/ComfyUI/models/diffusion_models/flux-2-klein-4b-fp8.safetensors" "auth"
+# dl_model "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B/resolve/main/flux-2-klein-4b.safetensors" "/workspace/ComfyUI/models/diffusion_models/flux-2-klein-4b.safetensors" "auth"
+# dl_model "https://huggingface.co/black-forest-labs/FLUX.2-klein-4b-fp8/resolve/main/flux-2-klein-4b-fp8.safetensors" "/workspace/ComfyUI/models/diffusion_models/flux-2-klein-4b-fp8.safetensors" "auth"
 
-dl_model "https://huggingface.co/Comfy-Org/flux2-klein-4B/resolve/main/split_files/text_encoders/qwen_3_4b.safetensors" "/workspace/ComfyUI/models/text_encoders/qwen_3_4b.safetensors"
-dl_model "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b_fp8_mixed.safetensors" "/workspace/ComfyUI/models/text_encoders/qwen_3_4b_fp8mixed.safetensors"
+# dl_model "https://huggingface.co/Comfy-Org/flux2-klein-4B/resolve/main/split_files/text_encoders/qwen_3_4b.safetensors" "/workspace/ComfyUI/models/text_encoders/qwen_3_4b.safetensors"
+# dl_model "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b_fp8_mixed.safetensors" "/workspace/ComfyUI/models/text_encoders/qwen_3_4b_fp8mixed.safetensors"
 
 dl_model "https://huggingface.co/Comfy-Org/flux2-dev/resolve/main/split_files/vae/flux2-vae.safetensors" "/workspace/ComfyUI/models/vae/flux2-vae.safetensors"
 
